@@ -1,0 +1,25 @@
+{
+    "name": "rahulmukati/HetznerDNS",
+    "description": "All new and simple Hetzner DNS library for PHP.",
+      "keywords": ["hetzner", "hetzner dns", "hetzner cloud", "dns", "free dns", "php dns"],
+      "type": "library",
+    "license": "MIT",
+      "homepage": "https://github.com/rahulmukati/HetznerDNS",
+      "support": {
+          "issues": "https://github.com/rahulmukati/HetznerDNS/issues",
+          "source": "https://github.com/rahulmukati/HetznerDNS"
+      },
+      "authors": [
+          {
+              "name": "Rahul Mukati"
+          }
+      ],
+    "require": {
+      "php": ">=5.6"
+      },
+      "autoload": {
+          "psr-4": {
+              "HetznerDNS\\": "/src"
+          }
+      }
+  }
