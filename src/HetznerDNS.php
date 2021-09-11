@@ -126,7 +126,7 @@ class HetznerDNS {
       $query = '';
     }
 
-    return $this->curl('GET', '/zones' . $query);
+    return $this->curl('GET', '/zones?' . $query);
 
   }
 
@@ -171,7 +171,7 @@ class HetznerDNS {
       $query = '';
     }
 
-    return $this->curl('GET', '/records' . $query);
+    return $this->curl('GET', '/records?' . $query);
 
   }
 
